@@ -48,17 +48,37 @@ The site mirrors the original mosquit.one structure:
 
 ## Design System
 
-- **Color Palette**: Nord theme (`#2e3440`, `#88c0d0`, `#d8dee9`, etc.)
-- **Typography**: Source Sans Pro from Google Fonts
+The project has two distinct design themes available on separate branches:
+
+### Main Branch (Dark Emo Theme)
+- **Color Palette**: Nord-inspired dark theme (`#2e3440`, `#88c0d0`, `#d8dee9`, etc.)
+- **Typography**: Roboto Condensed, Oswald, Bebas Neue from Google Fonts
+- **Aesthetic**: Professional emo band presentation with subtle textures
+
+### Cute-Pop-Design Branch (Vibrant Pop Theme)  
+- **Color Palette**: Pastel gradients (`#ffeaa7`, `#fab1a0`, `#fd79a8`, `#a29bfe`, etc.)
+- **Typography**: Comic Neue and Nunito from Google Fonts
+- **Aesthetic**: Playful pop design with emoji decorations and bouncing animations
+
+Both themes share the same:
 - **Layout**: Fixed navigation header + scrollable content panels
-- **Animations**: Fade transitions between panels, entrance animations for content
+- **Animations**: Entrance animations, hover effects, and interactive transitions
 
 ## Navigation Features
 
-- Hash-based routing with browser history support
-- Keyboard navigation (arrow keys, Home/End)
-- Mobile-responsive hamburger-style navigation
+- Hash-based routing with browser history support and smooth scrolling
+- Keyboard navigation (arrow keys navigate sections, Home/End for first/last)
+- Mobile-responsive hamburger-style navigation with animated toggle
 - External link loading animations
+- Intersection Observer for content entrance animations
+- Section sequence: intro → news → music → live → contact → about
+
+## Branch Strategy
+
+- **main**: Production-ready dark emo theme
+- **cute-pop-design**: Alternative vibrant pop aesthetic
+- Both branches maintain identical functionality and content structure
+- Switch themes by checking out different branches
 
 ## Japanese Content
 
