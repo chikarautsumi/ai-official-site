@@ -21,6 +21,7 @@ The site uses a **Single Page Application (SPA) pattern** with hash-based routin
 - `script.js`: Handles navigation, URL routing, keyboard shortcuts, and animations
 - `style.css`: Nord-inspired dark theme with responsive breakpoints
 - `album-cover.svg`: Placeholder band artwork
+- `icons/`: Contains favicon files (favicon.png and various sizes)
 
 ## Development Commands
 
