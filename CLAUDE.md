@@ -83,3 +83,32 @@ Both themes share the same:
 ## Japanese Content
 
 The site contains Japanese text for band information, show details, and member names. Ensure any text updates maintain proper Japanese language formatting and cultural context.
+
+## Deployment
+
+The site is deployed and globally accessible on multiple platforms:
+
+### Live URLs
+- **Surge.sh**: https://mosquitone-tokyo.surge.sh
+- **GitHub Pages**: https://chikarautsumi.github.io/ai-official-site
+
+### Deployment Commands
+
+**GitHub Deployment:**
+```bash
+git add .
+git commit -m "Update site content"
+git push origin main
+```
+GitHub Pages automatically deploys from the main branch.
+
+**Surge Deployment:**
+```bash
+surge --domain mosquitone-tokyo.surge.sh
+```
+Requires login with email: chiksrskobu0225+surge@gmail.com
+
+### Repository Information
+- **GitHub Repository**: https://github.com/chikarautsumi/ai-official-site
+- **Remote**: git@github.com:chikarautsumi/ai-official-site.git
+- **Branch**: main
