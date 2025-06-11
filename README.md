@@ -2,4 +2,4 @@
 
 Official website for mosquitone, an emo band based in Tokyo.
 
-Visit: https://mosquitone.github.io/mosquitone-official-site
+Visit: https://chikarautsumi.github.io/mosquitone-official-site
