@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
     const navLinks = document.querySelectorAll('.nav-link');
+    const nav = document.querySelector('#nav');
     
     // Mobile hamburger toggle
     navToggle.addEventListener('click', function() {
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+
     // Hash-based routing and active states
     function updateActiveNavigation() {
         const currentHash = window.location.hash || '#intro';
@@ -43,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Update navigation on hash change
+    // Update navigation on hash change  
     window.addEventListener('hashchange', updateActiveNavigation);
     
     // Initialize navigation on page load
