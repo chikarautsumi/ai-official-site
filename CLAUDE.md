@@ -90,7 +90,7 @@ The site is deployed and globally accessible on multiple platforms:
 
 ### Live URLs
 - **Surge.sh**: https://mosquitone-tokyo.surge.sh
-- **GitHub Pages**: https://chikarautsumi.github.io/ai-official-site
+- **GitHub Pages**: https://chikarautsumi.github.io/official-site-by-claude
 
 ### Deployment Commands
 
@@ -102,13 +102,13 @@ git push origin main
 ```
 GitHub Pages automatically deploys from the main branch.
 
-**Surge Deployment:**
+**Surge Deployment (No Prompts):**
 ```bash
-surge --domain mosquitone-tokyo.surge.sh
+surge . mosquitone-tokyo.surge.sh
 ```
 Requires login with email: chiksrskobu0225+surge@gmail.com
 
 ### Repository Information
-- **GitHub Repository**: https://github.com/chikarautsumi/ai-official-site
-- **Remote**: git@github.com:chikarautsumi/ai-official-site.git
+- **GitHub Repository**: https://github.com/chikarautsumi/official-site-by-claude
+- **Remote**: git@github.com:chikarautsumi/official-site-by-claude.git
 - **Branch**: main
