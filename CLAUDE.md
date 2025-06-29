@@ -17,11 +17,13 @@ The site uses a **Single Page Application (SPA) pattern** with hash-based routin
 
 ### Key Components
 
-- `index.html`: Contains all 5 sections (intro, music, live, contact, about) in a single file
+- `index.html`: Contains all 6 sections (intro, news, music, live, contact, about) in a single file with full SEO optimization
 - `script.js`: Handles navigation, URL routing, keyboard shortcuts, and animations
 - `style.css`: Nord-inspired dark theme with responsive breakpoints
 - `album-cover.svg`: Placeholder band artwork
 - `icons/`: Contains favicon files (favicon.png and various sizes)
+- `sitemap.xml`: XML sitemap for search engine crawling
+- `robots.txt`: Search engine crawler guidance file
 
 ## Development Commands
 
@@ -42,6 +44,7 @@ Open browser to `http://localhost:8000`
 
 The site mirrors the original mosquit.one structure:
 - **Intro**: Band overview with featured album
+- **News**: Latest band news and announcements
 - **Music**: Discography (albums, demos) and streaming platform links
 - **Live**: Upcoming shows (July/August 2025) and past events
 - **Contact**: Email, social media links, and booking info
@@ -113,3 +116,40 @@ Requires login with email: chiksrskobu0225+surge@gmail.com
 - **GitHub Repository**: https://github.com/chikarautsumi/official-site-by-claude
 - **Remote**: git@github.com:chikarautsumi/official-site-by-claude.git
 - **Branch**: main
+
+## SEO Optimization
+
+The site is fully optimized for search engines and social sharing:
+
+### Meta Tags & Open Graph
+- Comprehensive meta tags (title, description, keywords) in Japanese and English
+- Open Graph tags for Facebook/LinkedIn sharing with custom preview images
+- Twitter Card metadata for enhanced Twitter sharing
+- Canonical URLs and proper robots meta tags
+
+### Structured Data
+- JSON-LD structured data implementing Schema.org MusicGroup markup
+- Band member information, discography, and social media profiles
+- Album and track metadata for rich search results
+- Proper semantic markup for search engine understanding
+
+### Technical SEO
+- `sitemap.xml`: Complete XML sitemap listing all sections with priority and update frequency
+- `robots.txt`: Search engine crawler guidance with sitemap reference
+- Semantic HTML structure with proper heading hierarchy (H1-H6)
+- Image alt attributes optimized for accessibility and SEO
+- Screen reader accessible elements with `.sr-only` class
+
+### SEO Best Practices
+- Mobile-first responsive design
+- Fast loading static site architecture
+- Clean URLs with hash-based routing
+- Proper internal linking structure
+- Japanese language content with appropriate locale settings
+
+The site is optimized for searches related to:
+- "mosquitone" / "モスキートーン"
+- "Tokyo emo band" / "東京 エモ バンド"
+- "When I was in the future" album
+- Individual band member names
+- Emo music Tokyo scene
